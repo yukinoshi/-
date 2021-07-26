@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jq期末作业</title>
+    <link href="css/camroll_slider.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/paraLasic.1.1.js"></script>
+    <script src="js/camroll_slider.js"></script>
+    <style>
+        #backTop {
+	display: none;
+	position: fixed;
+	left: 50%;
+	margin-left: 870px;
+	bottom: 5px;
+	width: 45px;
+	padding: 15px;
+	background-color: aliceblue;
+	color: #c6865a;
+	border-radius: 10px 10px 10px 10px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+#backTop:hover {
+	color: black;
+}
+    </style>
+</head>
+
+<body>
+    <main class="main">
+
+        <section class="list-item">
+            <div class="item-image">
+                <img src="img/(pid-72444320)2019_p0.png" alt="" srcset="">
+            </div>
+            <div class="item-text">
+                <div class="text-title">jQuery</div>
+                <div class="text-desc">jQuery是一个快速、简洁的JavaScript框架</div>
+            </div>
+        </section>
+
+        <section class="list-item">
+            <div class="item-image">
+                <img src="img/(pid-69941255)藤飾り.png" alt="" srcset="">
+            </div>
+            <div class="item-text">
+                <div class="text-title">HTML</div>
+                <div class="text-desc">HTML为超文本标记语言，是一种标识性的语言</div>
+            </div>
+        </section>
+        <section class="list-item">
+            <div class="item-image">
+                <img src="img/(pid-71998174)もう一度.png" alt="" srcset="">
+            </div>
+            <div class="item-text">
+                <div class="text-title">CSS</div>
+                <div class="text-desc">CSS是一种用来表现HTML或XML等文件样式的计算机语言</div>
+            </div>
+        </section>
+        <section class="list-item">
+            <div class="item-image">
+                <img src="img/(pid-71306825)夜を歩いて.png" alt="" srcset="">
+            </div>
+            <div class="item-text">
+                <div class="text-title">Javascript</div>
+                <div class="text-desc">JavaScript是一种具有函数优先的轻量级，解释型或即时编译型的高级编程语言</div>
+            </div>
+        </section>
+        <div class="htmleaf-container">
+            <div id="my-slider" class="crs-wrap">
+                <div class="crs-screen">
+                    <div class="crs-screen-roll">
+                        <div class="crs-screen-item" style="background-image: url('img/\(pid-72444320\)2019_p0.png')">
+                            <div class="crs-screen-item-content">
+                                <h1>jQuery</h1>
+                                <div class="text-desc">jQuery是一个快速、简洁的JavaScript框架</div>
+                            </div>
+                        </div>
+                        <div class="crs-screen-item" style="background-image: url('img/\(pid-69941255\)藤飾り.png')">
+                            <div class="crs-screen-item-content">
+                                <h1>HTML</h1>
+                                <div class="text-desc">HTML为超文本标记语言，是一种标识性的语言</div>
+
+                            </div>
+                        </div>
+                        <div class="crs-screen-item" style="background-image: url('img/\(pid-71998174\)もう一度.png')">
+                            <div class="crs-screen-item-content">
+                                <h1>CSS</h1>
+                                <div class="text-desc">CSS是一种用来表现HTML或XML等文件样式的计算机语言</div>
+
+                            </div>
+                        </div>
+                        <div class="crs-screen-item" style="background-image: url('img/\(pid-71306825\)夜を歩いて.png')">
+                            <div class="crs-screen-item-content">
+                                <h1>Javascript</h1>
+                                <div class="text-desc">JavaScript是具有函数优先的轻量级，解释型或即时编译型的高级编程语言</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="crs-bar">
+                    <div class="crs-bar-roll-current"></div>
+                    <div class="crs-bar-roll-wrap">
+                        <div class="crs-bar-roll">
+                            <div class="crs-bar-roll-item"
+                                style="background-image: url('img/\(pid-72444320\)2019_p0.png')">
+                            </div>
+                            <div class="crs-bar-roll-item" style="background-image: url('img/\(pid-69941255\)藤飾り.png')">
+                            </div>
+                            <div class="crs-bar-roll-item"
+                                style="background-image: url('img/\(pid-71998174\)もう一度.png')">
+                            </div>
+                            <div class="crs-bar-roll-item"
+                                style="background-image: url('img/\(pid-71306825\)夜を歩いて.png')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script>
+    $("#my-slider").camRollSlider();
+</script>
+
+</html>
